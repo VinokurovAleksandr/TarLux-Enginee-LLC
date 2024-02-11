@@ -312,3 +312,66 @@
         color: #ffffff;
         font-weight: 200;
     }
+
+    /* EXPERIANSE PAGE */
+
+    .page_experience {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .experience {
+    }
+    .experience__container {
+ 
+    }
+    .experience__items {
+        /* display: grid;
+        align-items: center;
+        grid-template-columns: repeat(4, minmax(auto, 200px));
+        column-gap: 30px;
+        row-gap: 30px;
+        justify-content: space-between; */
+        border: 1px solid #000;
+        border-radius: 15px;
+        /* height: 200px;
+        width: 100%; */
+        /* background-color:#ececec  */
+
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        height: 250px;
+        align-items: center;
+        background-color:#ececec;
+        box-shadow: -7px 6px 21px -4px rgba(0,0,0,0.53);
+        padding: 0 10px 0 10px;
+    }
+    .experience__item {
+        max-width: 230px;
+      
+    }
+    .item__experience {
+        flex-basis: calc((100% - 30px) / 4);
+        padding: 10px;
+        align-items: center;
+        /* display: grid; */
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        height: 125px;
+        box-shadow: -8px 9px 31px -8px rgba(0,0,0,0.81);
+        border-radius: 15%;
+        
+    }
+
+    .item_experience-title {
+        color: #000000;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .item__experience-text {
+        font-size: 15px;
+    letter-spacing: 1.5;
+
+    }
+    
