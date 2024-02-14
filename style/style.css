@@ -38,7 +38,7 @@
         font-family: Poppins;
         color: var(--primary-text-color);
         /* background-color: #fafafa; */
-        background-color: #dad5d5;
+        background-color: #ffffff;
     }
 
     :root {
@@ -196,7 +196,7 @@
 
     .info-header__email {
     }
-    .header__social {
+    /* .header__social {
         z-index: 5;
        cursor: pointer;
     }
@@ -218,7 +218,7 @@
     .social-item__link svg{
         transition: transform 0.3s ease 0s;
     }
-    
+     */
     .header__button {
        width: 200px; 
        height: 60px;
