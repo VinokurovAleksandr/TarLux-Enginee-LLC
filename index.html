@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Виробник обладнання водопідготовки та очистки рідин (харчові рідини, хімічні розчини тощо)">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900&display=swap&subset=cyrillic-ext" rel="stylesheet" />
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -23,11 +24,33 @@
               
                     <!-- <a href="./index.html" class="header__logo">TarLux Engineering LLC</a>
                      -->
-                     <a class="header__logo">
-                        <svg width="150" height="100">
+                     <a class="header__logo" href="./index.html">
+                        <!-- <svg width="150" height="100">
                             <use href="./img/sprite.svg#Logo"></use>
-                        </svg>
+                        </svg> -->
+                        <img class="logo" src="./img/Logo-TLE LLC/SVG/Logo3.svg" alt="logo">
                      </a>
+                     <!-- MOBILE open -->
+                     <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <!-- MOBILE open -->
                 <nav class="header__menu menu">
                     <ul class="menu__list">
                         <li class="menu__item">
@@ -40,7 +63,7 @@
                             <a href="#" class="menu__link">Послуги</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Технології</a>
+                            <a href="#" class="menu__link">Співпраця</a>
                         </li>
                     </ul>
                 </nav>
@@ -63,50 +86,40 @@
                     <button type="button" class="header__button">Консультація</button>
       
             </div>
+
+            <!-- MOBILE MENU -->
+
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <button class="menu-toggle js-close-menu">
+                  <svg
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+          
+                <ul class="mobile-menu">
+                  <li><a href="" class="link">Про компанію</a></li>
+                  <li><a href="" class="link">Обладнання</a></li>
+                  <li><a href="" class="link">Послуги</a></li>
+                  <li><a href="" class="link">Співпраця</a></li>
+                </ul>
+              </div>
         </header>
 
-        <!-- <main class="page">
+        <main class="page">
             <section class="page_main main-block">
-                <div class="main-block__container">
-                  <div class="main-block__pre-info">
-                    <div class="main__circle">
-                    </div>
-                    <div class="pre__title">онлайн і офлайн консултація</div>
-                    
-                  </div>
-                    <div class="main-block__body body-main__title">
-                       
-                            <h1>Системи очищення води для вашого бізнесу</h1>
-                    </div>
-                    <div class="body-main__block-services services">
-                        <div class="services__list">
-                            <div class="services__item">
-                                <h2 class="services__sub-title">Lorem ipsum .</h2>
-                                <p class="services__text">Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="services__list">
-                            <div class="services__item">
-                                <h2 class="services__sub-title">Lorem ipsum .</h2>
-                                <p class="services__text">Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="services__list">
-                            <div class="services__item">
-                                <h2 class="services__sub-title">Lorem ipsum .</h2>
-                                <p class="services__text">Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div class="services__list">
-                            <div class="services__item">
-                                <h2 class="services__sub-title">Lorem ipsum.</h2>
-                                <p class="services__text">Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </section>
-            <section class="page_experience experience">
+            <!-- <section class="page_experience experience">
                 <div class="experience__container">
                     <div class="experience__items">
                         <div class="item__experience">
@@ -127,9 +140,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
-            <section class="page_priority priority">
+            <!-- <section class="page_priority priority">
                 <div class="priority__container">
                     <h2 class="priority title">З якими питаннями до нас звертаються?</h2>
                     <div class="priority__items">
@@ -177,9 +190,10 @@
                     </div>
                     </div>
                 </div>
-            </section>
-        </main> -->
-        <footer class="footer"></footer>
+            </section> -->
+            
+        </main> 
+        <footer class="footer">Footer</footer>
     </div>
     <script src="./js/modal.js"></script>
     <script
