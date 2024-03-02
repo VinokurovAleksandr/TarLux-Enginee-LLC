@@ -6,7 +6,6 @@ const swiper = new Swiper('.clients-image__slider', {
   freeMode: true,
   initialSlide: 1,
   spaceBetween: 30,
-
      
     breakpoints: {
         320: {
@@ -19,14 +18,16 @@ const swiper = new Swiper('.clients-image__slider', {
             slidesPerView:4,
         }
   },
-
-
-  // Navigation arrows
   navigation: {
     nextEl: '.slider-block__arrow.swiper-button-next',
     prevEl: '.slider-block__arrow.swiper-button-prev',
-    },
-      
-  
-  
+  },
+
+});
+
+ window.addEventListener('scroll', function () {
+  scrollY > 0 ? document.querySelector('.header')
+    .classList.add('scroll') :
+    document.querySelector('header')
+      .classList.remove('scroll')
 });
