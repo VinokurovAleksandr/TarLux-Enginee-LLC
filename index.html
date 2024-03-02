@@ -25,6 +25,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <title>TarLux Engineering LLC</title>
   </head>
   <body>
@@ -167,7 +172,9 @@
                   </div>
                   <h3 class="item-service__title">Для бізнесу</h3>
                   <div class="item-service__text">
-                    We focus on ergonomics and meeting you where you work.
+                    Індивідуально виробляємо та проєктуємо. Надаємо сервісні та
+                    ремонтні послуги. Проводимо аудит існуючого обладнання.
+                    Працюємо за договором.
                   </div>
                 </div>
               </div>
@@ -177,9 +184,7 @@
                     <img src="./img/services/twotone.svg" alt="for business" />
                   </div>
                   <h3 class="item-service__title">Некомерційні організації</h3>
-                  <div class="item-service__text">
-                    We focus on ergonomics and meeting you where you work.
-                  </div>
+                  <div class="item-service__text">Співпрацюємо з ОСББ</div>
                 </div>
               </div>
               <div class="services__column">
@@ -447,17 +452,102 @@
             </div>
           </div>
         </section>
+
+        <!-- CLIENTS  -->
+
+        <section class="page__clients clients">
+          <div class="clients__container">
+            <!-- Slider -->
+
+            <div class="clients-image__slider swiper">
+              <!-- Additional required wrapper -->
+              <div class="clients__items swiper-wrapper">
+                <!-- Slides -->
+                <div class="clients__item swiper-slide">
+                  <img src="./img/clients/Burisma_grup.png" alt="Burisma" />
+                </div>
+                <div class="clients__item swiper-slide">
+                  <img src="./img/clients/cheese_club_logo.png" alt="Burisma" />
+                </div>
+                <div class="clients__item swiper-slide">
+                  <img src="./img/clients/esco_pivnich.png" alt="Burisma" />
+                </div>
+                <div class="clients__item swiper-slide">
+                  <img src="./img/clients/Lilik.png" alt="Burisma" />
+                </div>
+                <div class="clients__item swiper-slide">
+                  <img src="./img/clients/MD.png" alt="Burisma" />
+                </div>
+                <div class="clients__item swiper-slide">
+                  <img
+                    src="./img/clients/mjasna_gildia.png"
+                    alt="mjasna gildia"
+                  />
+                </div>
+                <div class="clients__item swiper-slide">
+                  <img
+                    src="./img/clients/ODESKA_YuRIDIChNA_AKADEMIYa.png"
+                    alt="ODESKA YuRIDIChNA AKADEMIYa"
+                  />
+                </div>
+                <div class="clients__item swiper-slide">
+                  <img
+                    src="./img/clients/s_engeenering.png"
+                    alt="s engeenering"
+                  />
+                </div>
+                <div class="clients__item swiper-slide">
+                  <img src="./img/clients/sisu.png" alt="s sisu" />
+                </div>
+                <div class="clients__item swiper-slide">
+                  <img src="./img/clients/tmetiz_logo.png" alt="tmetiz" />
+                </div>
+                <div class="clients__item swiper-slide">
+                  <img src="./img/clients/trattoria.png" alt="trattoria" />
+                </div>
+              </div>
+              <!-- If we need navigation buttons -->
+
+              <div class="slider-block__arrow swiper-button-prev"></div>
+              <div class="slider-block__arrow swiper-button-next"></div>
+            </div>
+
+            <!-- <div class="clients__items">
+              <div class="clients__item">
+                <img src="./img/clients/Burisma_grup.png" alt="Burisma" />
+              </div>
+              <div class="clients__item">
+                <img src="./img/clients/cheese_club_logo.png" alt="Burisma" />
+              </div>
+              <div class="clients__item">
+                <img src="./img/clients/esco_pivnich.png" alt="Burisma" />
+              </div>
+              <div class="clients__item">
+                <img src="./img/clients/Lilik.png" alt="Burisma" />
+              </div>
+              <div class="clients__item">
+                <img src="./img/clients/MD.png" alt="Burisma" />
+              </div>
+              <div class="clients__item">
+                <img src="./img/clients/mjasna_gildia.png" alt="Burisma" />
+              </div>
+            </div> -->
+          </div>
+        </section>
       </main>
       <footer class="footer">Footer</footer>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
+
     <script src="./js/mobileMenu.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
 
