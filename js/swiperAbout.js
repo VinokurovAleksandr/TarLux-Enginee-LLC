@@ -2,10 +2,12 @@ const swiper = new Swiper('.clients-image__slider', {
   loop: true,
   
   slidesPerView: 4,
+  loopedSlides: 4,
   watchOverflow: true,
   freeMode: true,
-  initialSlide: 1,
+  initialSlide: 0,
   spaceBetween: 30,
+  
      
     breakpoints: {
         320: {
