@@ -33,11 +33,9 @@
     body {
         height: 100%;
         font-family: Montserrat;
-        /* font-family: Alice; */
         color: var(--primary-text-color);
         font-size: 14px;
         line-height: 1;
-        /* background-color: #fafafa; */
         background-color: #ffffff;
         color: #000;
         font-weight: 500;
@@ -64,7 +62,7 @@
     .wrapper {
         min-width: 100%;
         overflow: hidden;
-        /* overflow: clip; */
+        overflow: clip;
         display: flex;
         flex-direction: column;
     }
