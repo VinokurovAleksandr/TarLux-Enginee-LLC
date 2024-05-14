@@ -1,3 +1,10 @@
+window.addEventListener('scroll', function () {
+  scrollY > 0 ? document.querySelector('.header')
+    .classList.add('scroll') :
+    document.querySelector('header')
+      .classList.remove('scroll')
+});
+
 const swiper = new Swiper('.clients-image__slider', {
   loop: true,
   
@@ -27,9 +34,3 @@ const swiper = new Swiper('.clients-image__slider', {
 
 });
 
- window.addEventListener('scroll', function () {
-  scrollY > 0 ? document.querySelector('.header')
-    .classList.add('scroll') :
-    document.querySelector('header')
-      .classList.remove('scroll')
-});
