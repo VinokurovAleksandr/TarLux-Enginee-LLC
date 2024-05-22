@@ -729,6 +729,12 @@ body {
     /* transform: translate(0, -36%); */
     margin-top: -114px;
 }
+
+@media(max-width: 991px){
+  .images-featured__item-mini{
+    display: none;
+  }}
+
 .options-content-featured__label {
     font-size: 40px;
     font-weight: 700;
