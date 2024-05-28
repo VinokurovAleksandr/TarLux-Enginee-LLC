@@ -34,11 +34,9 @@ html,
 body {
   height: 100%;
   font-family: Montserrat;
-  /* font-family: Alice; */
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1;
-  /* background-color: #fafafa; */
   background-color: #ffffff;
   color: #000;
   font-weight: 500;
@@ -61,13 +59,9 @@ body {
   --alert-color: #e77c40;
   --danger-color: #e74040;
 }
-.title {
-}
-
 .wrapper {
   min-width: 100%;
   overflow: hidden;
-  /* overflow: clip; */
   display: flex;
   flex-direction: column;
 }
@@ -149,13 +143,6 @@ body {
   overflow: hidden;
   cursor: pointer;
 }
-.logo {
-  /* width: 60px;
-        height: 75px; */
-}
-.header__menu {
-}
-
 .menu__list {
   display: flex;
   flex-wrap: wrap;
@@ -193,14 +180,14 @@ body {
   height: 4px;
   border-radius: 2px;
   transition: all 0.4s ease 0s;
-  background-color: #3dc2f3;
+  background-color: var(--secondary-color-1);
 }
 
 .menu__link:hover:after {
   width: 100%;
 }
 .menu__link:hover {
-  color: #3dc2f3;
+  color: var(--secondary-color-1);
 }
 .header__info {
   display: flex;
@@ -238,7 +225,7 @@ body {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     border-color 0.2s ease-in-out;
   cursor: pointer;
-  background-color: #3dc2f3;
+  background-color: var(--secondary-color-1);
   color: #ffffff;
   font-size: 17px;
 }

@@ -182,7 +182,7 @@ body {
   height: 4px;
   border-radius: 2px;
   transition: all 0.4s ease 0s;
-  background-color: #3dc2f3;
+  background-color: var(--secondary-color-1);
 }
 
 .menu__link:hover:after {
@@ -190,7 +190,7 @@ body {
 }
 
 .menu__link:hover {
-  color: #3dc2f3;
+  color: var(--secondary-color-1);
 }
 
 .header__info {
@@ -233,7 +233,7 @@ body {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     border-color 0.2s ease-in-out;
   cursor: pointer;
-  background-color: #3dc2f3;
+  background-color: var(--secondary-color-1);
   color: #ffffff;
   font-size: 17px;
 }
