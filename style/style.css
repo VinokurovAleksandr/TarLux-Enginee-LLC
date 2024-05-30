@@ -40,7 +40,9 @@ body {
   background-color: #ffffff;
   color: #000;
   font-weight: 500;
+  
 }
+
 
 :root {
   --primary-color: #ff7b47;
@@ -219,19 +221,25 @@ body {
 }
 
 .header__button {
-  width: 200px;
-  height: 60px;
+  width: 150px;
+  height: 50px;
   border-radius: 59px;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     border-color 0.2s ease-in-out;
   cursor: pointer;
   background-color: var(--secondary-color-1);
   color: #ffffff;
-  font-size: 17px;
+  font-size: 15px;
+  transition: transform 0.3s ease 0s;
 }
 .header__button:hover {
+  transform: scale(1.04);
   background-color: #0c95c7;
+  transition-duration: all 400ms ;
+  
 }
+
+
 
 /* MOBILE MENU */
 
@@ -336,7 +344,8 @@ body {
   padding: 184px 0px 191px 0px;
   position: relative;
   z-index: 2;
-  max-width: 509px;
+  text-align: center;
+  /* max-width: 509px; */
 }
 
 @media (max-width: 992px) {
@@ -381,9 +390,13 @@ body {
   color: var(--second-text-color);
 }
 .main-block_buttons {
-  display: inline-flex;
+  /* display: inline-flex; */
+  
+  display: flex;
   flex-wrap: wrap;
   margin: -10px 0;
+  /* text-align: left; */
+  align-items: start;
 }
 .main-block_button {
   display: flex;
@@ -419,7 +432,17 @@ body {
 .main-block_button-border {
   border: 1px solid var(--secondary-color-1);
   color: var(--secondary-color-1);
+  font-size: 15px;
+  transition: transform 0.3s ease 0s;
 }
+.main-block_button-border:hover {
+  transform: scale(1.04);
+  
+  transition-duration: all 400ms;
+  background-color: var(--hover-color);
+  color: var(--light-text-color);
+}
+
 .main-block_image {
   position: absolute;
   width: 100%;
