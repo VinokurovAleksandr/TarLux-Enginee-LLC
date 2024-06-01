@@ -144,6 +144,14 @@ body {
 .header__logo {
   overflow: hidden;
   cursor: pointer;
+  width: 60px;
+  height: 80px;
+}
+@media (max-width: 479.98px) {
+  .header__logo {
+    width: 50px;
+    height: 50px;
+   }
 }
 .menu__list {
   display: flex;
@@ -272,7 +280,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -300,7 +307,7 @@ body {
   width: 100vw;
   height: 100vh;
   padding: 48px 31px;
-  background-color: #3f51b5;
+  background-color: var(--secondary-color-1);
   z-index: 999;
 
   transform: translateX(100%);
@@ -313,7 +320,7 @@ body {
 
 .menu-container .menu-toggle {
   position: absolute;
-  top: 16px;
+  top: 23px;
   right: 16px;
   color: #fff;
 }
@@ -322,13 +329,16 @@ body {
   padding-top: 70px;
   margin: 0;
   list-style: none;
+  text-align: center;
 }
 
 .mobile-menu .link {
   display: block;
   padding: 10px;
-  color: #fff;
+  font-size: 16px;
+  color: var(--light-text-color);
   text-decoration: none;
+  font-family: Montserrat;
 }
 
 /*=================== MAIN-BLOCK==================== */

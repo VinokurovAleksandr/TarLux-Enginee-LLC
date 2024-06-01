@@ -381,6 +381,8 @@ body {
     text-decoration: none;
   }
 
+
+
 /* PAGE__HOW SECTION */
 
 .how {
@@ -531,9 +533,9 @@ body {
   flex-direction: column;
   background-image: linear-gradient(
   to right, rgba(31, 31, 33, 0.4),
-  rgba(47, 48, 58, 0.4)), url(../img/about/callback2.jpg);
+  rgba(47, 48, 58, 0.4)), url(../img/about/callback.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-attachment: scroll;
   background-color: #C4C4C4;
