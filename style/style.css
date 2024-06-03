@@ -302,21 +302,43 @@ body {
 
 .menu-container {
   position: fixed;
-  top: 0;
+  top: 100px;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   padding: 48px 31px;
   background-color: var(--secondary-color-1);
   z-index: 999;
-
+  overflow: auto;
   transform: translateX(100%);
+  /* transition: top 0.3s; */
   transition: transform 250ms ease-in-out;
 }
 
 .menu-container.is-open {
   transform: translateX(0);
 }
+
+@media (min-width: 768px) {
+  .menu-container {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    /* background-color: var(--secondary-color-1); */
+    background-color: var(--secondary-color-1);
+    transition: top 0.3s;
+    z-index: 1000;
+  }
+  .menu-container.is-open {
+    top: 100px;
+  }
+  .menu-toggle .js-close-menu{
+    display: none;
+  }
+ 
+}
+
 
 .menu-container .menu-toggle {
   position: absolute;
@@ -325,8 +347,10 @@ body {
   color: #fff;
 }
 
+
+
 .mobile-menu {
-  padding-top: 70px;
+  padding-top: 50px;
   margin: 0;
   list-style: none;
   text-align: center;
@@ -341,6 +365,65 @@ body {
   font-family: Montserrat;
 }
 
+.mobile__contacts {
+  padding-top: 20px;
+  display: flex;  
+  justify-content: center;
+  text-align: center;
+}
+.contacts-mobile {
+}
+.contacts-mobile__address {
+  color: #fff;
+  font-size: 16px;
+}
+.contacts-mobile__list .contacts-mobile__item {
+  padding: 10px;
+}
+.contacts-mobile__item {
+  
+
+}
+.item {
+}
+.contacts-mobile__contacts {
+  color: #fff;
+  font-size: 16px;
+  font-family: Montserrat;
+
+}
+
+.mobile-callback__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  /* margin: 20px; */
+ 
+}
+.callback__sub-title {
+  color: #fff;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+.callback__messengers {
+  
+ 
+}
+.callback__items {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.callback__item:not(:last-child) {
+  padding-right: 15px;
+
+}
+.callback__link {
+
+}
 /*=================== MAIN-BLOCK==================== */
 
 .page_main-block {
@@ -520,6 +603,7 @@ body {
   background: var(--light-text-color);
   padding: 35px;
 }
+
 @media (max-width: 479.98px) {
   .services__item {
     padding: 25px;

@@ -1,173 +1,126 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Виробник обладнання водопідготовки та очистки рідин (харчові рідини, хімічні розчини тощо)"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900&display=swap&subset=cyrillic-ext"
-      rel="stylesheet"
-    />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./style/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="очистка води, водопідготовка, TarLux Engineering, виробник обладнання" />
+  <meta name="description" content="Виробник обладнання водопідготовки та очистки рідин (харчові рідини, хімічні розчини тощо)" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000000" />
 
-    <title>TarLux Engineering LLC</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="header__container">
-          <!-- <a href="./index.html" class="header__logo">TarLux Engineering LLC</a>
-                     -->
-          <a class="header__logo" href="./index.html">
-            <!-- <svg width="150" height="100">
-              <use href="./img/sprite.svg#Logo"></use>
-            </svg> -->
-            <img src="./img/LogoTLE/Logo3.svg" alt="">
-          </a>
-          <!-- MOBILE open -->
+  <link rel="icon" href="./img/LogoTLE/SVG/favicon.svg" type="image/x-icon" />
+<link rel="apple-touch-icon" href="./img/LogoTLE/SVG/favicon.svg" />
 
-          <button
-            class="menu-toggle js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-          >
-            <svg
-              width="24"
-              height="24"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </button>
-
-          <!-- Header__menu -->
-          <nav class="header__menu menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="./index.html" class="menu__link">Головна</a>
-              </li>
-              <li class="menu__item">
-                <a href="./about.html" class="menu__link">Про компанію</a>
-              </li>
-              <li class="menu__item">
-                <a href="./cases.html" class="menu__link">Проєкти</a>
-              </li>
-              
-              <li class="menu__item">
-                <a href="./сooperation.html" class="menu__link">Співпраця</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="header__info info-header">
-            <div class="info-header__phone">
-              <a href="tel:+380680086499">
-                <svg class="header-phone" width="15" heigth="15">
-                  <use href="./img/sprite.svg#phone"></use>
-                </svg>
-                +380 (68) 008 64 99</a
-              >
-            </div>
-            <div class="info-header__email">
-              <a href="mailto:TarLux719@gmail.com">
-                <svg class="header-phone" width="15" heigth="15">
-                  <use href="./img/sprite.svg#mail"></use>
-                </svg>
-                TarLux719@gmail.com</a
-              >
-            </div>
-          </div>
-          <button type="button" class="header__button">Консультація</button>
-        </div>
-
-        <!-- MOBILE MENU -->
-
-        <div class="menu-container js-menu-container" id="mobile-menu">
-          <button class="menu-toggle js-close-menu">
-            <svg
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </button>
-
-          <ul class="mobile-menu">
-            <li><a href="./index.html" class="link">Головна</a></li>
-            <li><a href="./about.html" class="link">Про компанію</a></li>
-            <li><a href="./cases.html" class="link">Проєкти</a></li>
-            <li><a href="./сooperation.html" class="link">Співпраця</a></li>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900&display=swap&subset=cyrillic-ext" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <title>TarLux Engineering LLC</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="./index.html">
+          <img src="./img/LogoTLE/Logo3.svg" alt="TarLux Engineering LLC Logo">
+        </a>
+        <!-- MOBILE open -->
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <!-- Header__menu -->
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="./index.html" class="menu__link">Головна</a></li>
+            <li class="menu__item"><a href="./about.html" class="menu__link">Про компанію</a></li>
+            <li class="menu__item"><a href="./cases.html" class="menu__link">Проєкти</a></li>
+            <li class="menu__item"><a href="./сooperation.html" class="menu__link">Співпраця</a></li>
           </ul>
-          <div class="mobile__contacts contacts-mobile">
-            <address class="contacts-mobile__address">
-              <ul class="contacts-mobile__list">
-                <li class="contacts-mobile__item">
-                  <a href="" class="contacts-mobile__addres">м.Київ, вул.Крайня 1Б</a>
-                </li>
-                <li class="item">
-                  <a href="mailto:TarLux719@gmail.com" class="contacts-mobile__contacts"
-                    >TarLux719@gmail.com</a
-                  >
-                </li>
-                <li class="contacts-mobile__item">
-                  <a href="tel:+380680086499" class="contacts-mobile__contacts"
-                    >+380 (68) 008 64 99</a
-                  >
-                </li>
-              </ul>
-            </address>
+        </nav>
+        <div class="header__info info-header">
+          <div class="info-header__phone">
+            <a href="tel:+380680086499">
+              <svg class="header-phone" width="15" height="15">
+                <use href="./img/sprite.svg#phone"></use>
+              </svg>
+              +380 (68) 008 64 99
+            </a>
           </div>
-          <div class="callback__sub-title">Напишіть нам:</div>
-          <div class="callback__messengers">
-            <div class="callback__items">
-              <div class="callback__item">
-                <a href="https://wa.me/380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в WhatsApp"  class="callback__link">
-                  <img src="./img/Socials/callbackSection/whatsapp.svg" alt="Whatsapp icon">
-                </a>
-              </div>
-              <div class="callback__item">
-                <a href="https://t.me/Jukovskii1" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Telegram" class="callback__link">
-                  <img src="./img/Socials/callbackSection/telegram.svg"  alt="Telegram icon">
-                </a>
-              </div>
-              <div class="callback__item">
-                <a href="viber://chat?number=+380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Viber" class="callback__link">
-                <img src="./img/Socials/callbackSection/viber.svg" alt="Viber icon">
-                </a>
-              </div>
-              
-            </div>
+          <div class="info-header__email">
+            <a href="mailto:TarLux719@gmail.com">
+              <svg class="header-phone" width="15" height="15">
+                <use href="./img/sprite.svg#mail"></use>
+              </svg>
+              TarLux719@gmail.com
+            </a>
           </div>
-
         </div>
-        
+        <button type="button" class="header__button">Консультація</button>
+      </div>
+    </header>
+    <!-- Add the rest of your HTML content here -->
+  </div>
+</body>
+</html>
+
+
+ <!-- MOBILE MENU -->
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <!-- <button class="menu-toggle js-close-menu" aria-expanded="false" aria-controls="mobile-menu">
+    <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+      <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+    </svg>
+  </button> -->
+
+  <ul class="mobile-menu">
+    <li><a href="./index.html" class="link">Головна</a></li>
+    <li><a href="./about.html" class="link">Про компанію</a></li>
+    <li><a href="./cases.html" class="link">Проєкти</a></li>
+    <li><a href="./сooperation.html" class="link">Співпраця</a></li>
+  </ul>
+
+  <div class="mobile__contacts contacts-mobile">
+    <address class="contacts-mobile__address">
+      <ul class="contacts-mobile__list">
+        <li class="contacts-mobile__item">
+          <a href="" class="contacts-mobile__address">м.Київ, вул.Крайня 1Б</a>
+        </li>
+        <li class="contacts-mobile__item">
+          <a href="mailto:TarLux719@gmail.com" class="contacts-mobile__contacts">TarLux719@gmail.com</a>
+        </li>
+        <li class="contacts-mobile__item">
+          <a href="tel:+380680086499" class="contacts-mobile__contacts">+380 (68) 008 64 99</a>
+        </li>
+      </ul>
+    </address>
+  </div>
+
+  <div class="mobile-callback__container">
+    <div class="callback__sub-title">Напишіть нам:</div>
+    <div class="callback__messengers">
+      <div class="callback__items">
+        <div class="callback__item">
+          <a href="https://wa.me/380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в WhatsApp" class="callback__link">
+            <img src="./img/Socials/callbackSection/whatsapp.svg" alt="Whatsapp icon">
+          </a>
+        </div>
+        <div class="callback__item">
+          <a href="https://t.me/Jukovskii1" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Telegram" class="callback__link">
+            <img src="./img/Socials/callbackSection/telegram.svg" alt="Telegram icon">
+          </a>
+        </div>
+        <div class="callback__item">
+          <a href="viber://chat?number=+380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Viber" class="callback__link">
+            <img src="./img/Socials/callbackSection/viber.svg" alt="Viber icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>   
       </header>
 
       <main class="page">
@@ -178,16 +131,11 @@
                 Промислові системи очищення води для дому та бізнесу
               </h1>
               <div class="main-block_text">
-                Виробляємо та проєктуємо. Надаємо великий комплекс супутніх
-                послуг.
+                Виробляємо та проєктуємо. Надаємо великий комплекс супутніх послуг.
               </div>
               <div class="main-block_buttons">
-                <a href="" class="main-block_button main-block_button-orange"
-                  >Отримати консультацю</a
-                >
-                <a href="./about.html" class="main-block_button main-block_button-border"
-                  >Дізнатись більше</a
-                >
+                <a href="#" class="main-block_button main-block_button-orange">Отримати консультацію</a>
+                <a href="./about.html" class="main-block_button main-block_button-border">Дізнатись більше</a>
               </div>
             </div>
           </div>
@@ -195,6 +143,7 @@
             <img src="./img/main/header.JPG" alt="cover" />
           </div>
         </section>
+        
 
         <!-- Services -->
 
@@ -204,48 +153,40 @@
               <div class="services__column">
                 <div class="services__item item-service">
                   <div class="item-service__icon">
-                    <img src="./img/services/1.svg" alt="service" />
+                    <img src="./img/services/1.svg" alt="service for business" />
                   </div>
                   <h3 class="item-service__title">Для бізнесу</h3>
                   <div class="item-service__text">
-                    Індивідуальне проєктування та виробництво. Підготовка води
-                    для прослових підприємств, готелів, приватних та державних
-                    організацій. Працюємо за договором.
+                    Індивідуальне проєктування та виробництво. Підготовка води для промислових підприємств, готелів, приватних та державних організацій. Працюємо за договором.
                   </div>
                 </div>
               </div>
               <div class="services__column">
                 <div class="services__item item-service">
                   <div class="item-service__icon">
-                    <img src="./img/services/twotone.svg" alt="for business" />
+                    <img src="./img/services/twotone.svg" alt="for non-commercial organizations and individuals" />
                   </div>
-                  <h3 class="item-service__title">
-                    Некомерційні організації та приватні особи
-                  </h3>
+                  <h3 class="item-service__title">Некомерційні організації та приватні особи</h3>
                   <div class="item-service__text">
-                    Співпрацюємо з ОСББ, підготовка води для жилих комлексів,
-                    котелень. Системи очистки для приватних домів та квартир.
+                    Співпрацюємо з ОСББ, підготовка води для житлових комплексів, котелень. Системи очистки для приватних домів та квартир.
                   </div>
                 </div>
               </div>
               <div class="services__column">
                 <div class="services__item item-service item-service__green">
                   <div class="item-service__icon">
-                    <img src="./img/services/3.svg" alt="service" />
+                    <img src="./img/services/3.svg" alt="water preparation and sale business" />
                   </div>
-                  <h3 class="item-service__title">
-                    Бізнес по підготовці і продажу води
-                  </h3>
+                  <h3 class="item-service__title">Бізнес по підготовці і продажу води</h3>
                   <div class="item-service__text">
-                    Індивідальне проєктування або готові рішення. Монтаж ,
-                    аналіз води. Навачання на місці. Сервісна та технічна
-                    підтримка.
+                    Індивідуальне проєктування або готові рішення. Монтаж, аналіз води. Навчання на місці. Сервісна та технічна підтримка.
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+        
 
         <!-- experience -->
 
@@ -318,21 +259,17 @@
         <section class="page_priority priority">
           <div class="priority__container">
             <div class="priority_header header-block">
-              <h2 class="header-block__title heding-text">
-                Наші послуги
-              </h2>
+              <h2 class="header-block__title heding-text">Наші послуги</h2>
             </div>
             <div class="priority-body">
+              <!-- Колонка 1 -->
               <div class="priority__column">
                 <div class="priority__item item-priority">
                   <div class="item-priority__content">
                     <div class="item-priority__icon">
                       <img src="./img/industry/service-audit.png" alt="audit" />
                     </div>
-
-                    <h3 class="item-priority__value heding-text">
-                      Системний аудит і продуктивність
-                    </h3>
+                    <h3 class="item-priority__value heding-text">Системний аудит і продуктивність</h3>
                     <div class="item-priority__list">
                       <ul>
                         <li>впровадження енергоєфективних рішень</li>
@@ -343,37 +280,30 @@
                   </div>
                 </div>
               </div>
+              <!-- Колонка 2 -->
               <div class="priority__column">
                 <div class="priority__item item-priority">
                   <div class="item-priority__content">
                     <div class="item-priority__icon">
-                      <img
-                        src="./img/industry/service-support.png"
-                        alt="services support"
-                      />
+                      <img src="./img/industry/service-support.png" alt="services support" />
                     </div>
-
                     <h3 class="item-priority__value">Сервіс</h3>
                     <div class="item-priority__list">
                       <ul>
                         <li>сервісний виїзд інженерів</li>
                         <li>ремонт</li>
-                        <li>
-                          постачання витратних матеріалів та комплектуючих
-                        </li>
+                        <li>постачання витратних матеріалів та комплектуючих</li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- Колонка 3 -->
               <div class="priority__column">
                 <div class="priority__item item-priority">
                   <div class="item-priority__content">
                     <div class="item-priority__icon">
-                      <img
-                        src="./img/industry/service-emergency.png"
-                        alt="services emergency"
-                      />
+                      <img src="./img/industry/service-emergency.png" alt="services emergency" />
                     </div>
                     <h3 class="item-priority__value">Проєктування</h3>
                     <div class="item-priority__list">
@@ -387,14 +317,12 @@
                   </div>
                 </div>
               </div>
+              <!-- Колонка 4 -->
               <div class="priority__column">
                 <div class="priority__item item-priority">
                   <div class="item-priority__content">
                     <div class="item-priority__icon">
-                      <img
-                        src="./img/industry/services-sampling-1.png"
-                        alt="services sampling"
-                      />
+                      <img src="./img/industry/services-sampling-1.png" alt="services sampling" />
                     </div>
                     <h3 class="item-priority__value">Аналіз води</h3>
                     <div class="item-priority__list">
@@ -408,18 +336,14 @@
                   </div>
                 </div>
               </div>
+              <!-- Колонка 5 -->
               <div class="priority__column">
                 <div class="priority__item item-priority">
                   <div class="item-priority__content">
                     <div class="item-priority__icon">
-                      <img
-                        src="./img/industry/service-install.png"
-                        alt="services sampling"
-                      />
+                      <img src="./img/industry/service-install.png" alt="services install" />
                     </div>
-                    <h3 class="item-priority__value">
-                      Готові рішення для бізнесу
-                    </h3>
+                    <h3 class="item-priority__value">Готові рішення для бізнесу</h3>
                     <div class="item-priority__list">
                       <ul>
                         <li>для приватних будинків</li>
@@ -431,14 +355,12 @@
                   </div>
                 </div>
               </div>
+              <!-- Колонка 6 -->
               <div class="priority__column">
                 <div class="priority__item item-priority">
                   <div class="item-priority__content">
                     <div class="item-priority__icon">
-                      <img
-                        src="./img/industry/service-training.png"
-                        alt="services sampling"
-                      />
+                      <img src="./img/industry/service-training.png" alt="services training" />
                     </div>
                     <h3 class="item-priority__value">Навчання на місці</h3>
                     <div class="item-priority__list">
@@ -451,49 +373,36 @@
                   </div>
                 </div>
               </div>
+              <!-- Колонка 7 -->
               <div class="priority__column">
                 <div class="priority__item item-priority">
                   <div class="item-priority__content">
                     <div class="item-priority__icon">
-                      <img
-                        src="./img/industry/service-preventive.png"
-                        alt="services sampling"
-                      />
+                      <img src="./img/industry/service-preventive.png" alt="services preventive" />
                     </div>
-                    <h3 class="item-priority__value">
-                      Контракти профілактичного технічного обслуговування
-                    </h3>
+                    <h3 class="item-priority__value">Контракти профілактичного технічного обслуговування</h3>
                     <div class="item-priority__list">
-                      <div>
-                        Комплексні контракти на обслуговування для забезпечення
-                        надійної та ефективної роботи системи
-                      </div>
+                      <div>Комплексні контракти на обслуговування для забезпечення надійної та ефективної роботи системи</div>
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- Колонка 8 -->
               <div class="priority__column">
                 <div class="priority__item item-priority">
                   <div class="item-priority__content">
                     <div class="item-priority__icon">
-                      <img
-                        src="./img/industry/services-parts.png"
-                        alt="services parts"
-                      />
+                      <img src="./img/industry/services-parts.png" alt="services parts" />
                     </div>
-                    <h3 class="item-priority__value">
-                      Будівництво та сервіс басейнів
-                    </h3>
+                    <h3 class="item-priority__value">Будівництво та сервіс басейнів</h3>
                     <div class="item-priority__list">
-                      <div>
-                        <ul>
-                          <li>будівництво</li>
-                          <li>сервісне обладнання</li>
-                          <li>проєктування</li>
-                          <li>реконструкція</li>
-                          <li>системи очищення</li>
-                        </ul>
-                      </div>
+                      <ul>
+                        <li>будівництво</li>
+                        <li>сервісне обладнання</li>
+                        <li>проєктування</li>
+                        <li>реконструкція</li>
+                        <li>системи очищення</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -501,6 +410,7 @@
             </div>
           </div>
         </section>
+        
 
         <!-- CLIENTS  -->
 
