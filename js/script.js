@@ -22,6 +22,12 @@ const swiper = new Swiper('.clients-image__slider', {
     nextEl: '.slider-block__arrow.swiper-button-next',
     prevEl: '.slider-block__arrow.swiper-button-prev',
   },
+  
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false
+  },
+  speed: 800,
 
 });
 
