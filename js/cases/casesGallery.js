@@ -41,10 +41,12 @@ document.addEventListener('DOMContentLoaded', function() {
         modal.style.display = 'flex';
         modalIndex = index;
         modalImg.src = swiper.slides[modalIndex].querySelector('img').src;
+        document.body.classList.add('no-scroll');
     }
 
     function closeModal() {
         modal.style.display = 'none';
+        document.body.classList.remove('no-scroll');
     }
 
     function showNextImage() {

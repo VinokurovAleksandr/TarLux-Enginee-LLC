@@ -243,7 +243,7 @@ body {
 .header__button:hover {
   transform: scale(1.04);
   background-color: #0c95c7;
-  transition-duration: all 400ms ;
+  transition-duration: all ;
   
 }
 
@@ -531,7 +531,7 @@ body {
 .main-block_button-border:hover {
   transform: scale(1.04);
   
-  transition-duration: all 400ms;
+  transition-duration: all;
   background-color: var(--hover-color);
   color: var(--light-text-color);
 }

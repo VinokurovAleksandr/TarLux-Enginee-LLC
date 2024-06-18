@@ -1,81 +1,48 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Виробник обладнання водопідготовки та очистки рідин (харчові рідини, хімічні розчини тощо)"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900&display=swap&subset=cyrillic-ext"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./style/about.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="очистка води, водопідготовка, TarLux Engineering, виробник обладнання">
+  <meta name="description" content="Виробник обладнання водопідготовки та очистки рідин (харчові рідини, хімічні розчини тощо)">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#000000" >
 
-    <title>TarLux Engineering LLC</title>
+  <link rel="icon" href="./img/LogoTLE/SVG/favicon.svg" type="image/x-icon" >
+<link rel="apple-touch-icon" href="./img/LogoTLE/SVG/favicon.svg" >
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900&display=swap&subset=cyrillic-ext" rel="stylesheet" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" >
+
+  <link rel="stylesheet" href="./style/about.css" >
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" >
+  <title>TarLux Engineering LLC</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
         <div class="header__container">
-          <!-- <a href="./index.html" class="header__logo">TarLux Engineering LLC</a>
-                     -->
-        <a class="header__logo" href="./index.html">
-          <svg width="150" height="100">
-            <use href="./img/sprite.svg#Logo"></use>
-          </svg>
+          <a class="header__logo" href="./index.html">
+            <img class="logo" src="./img/LogoTLE/SVG/TLC_Logo-1.svg" alt="TarLux Engineering LLC Logo">
           </a>
           <!-- MOBILE open -->
-          <button
-            class="menu-toggle js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-          >
-            <svg
-              width="24"
-              height="24"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
-              ></path>
+          <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon-path" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
             </svg>
           </button>
-          <!-- MOBILE open -->
-          <nav class="header__menu menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="./index.html" class="menu__link">Головна</a>
-              </li>
-              <li class="menu__item">
-                <a href="./about.html" class="menu__link current">Про компанію</a>
-              </li>
-              <li class="menu__item">
-                <a href="./cases.html" class="menu__link">Проєкти</a>
-              </li>
-             
-              <li class="menu__item">
-                <a href="./сooperation.html" class="menu__link">Співпраця</a>
-              </li>
-            </ul>
-          </nav>
+            <!-- Header__menu -->
+            <nav class="header__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="./index.html" class="menu__link ">Головна</a></li>
+                <li class="menu__item"><a href="./about.html" class="menu__link current">Про компанію</a></li>
+                <li class="menu__item"><a href="./cases.html" class="menu__link">Проєкти</a></li>
+              </ul>
+            </nav>
           <div class="header__info info-header">
             <div class="info-header__phone">
               <a href="tel:+380680086499">
-                <svg class="header-phone" width="15" heigth="15">
+                <svg class="header-phone">
                   <use href="./img/sprite.svg#phone"></use>
                 </svg>
                 +380 (68) 008 64 99</a
@@ -83,7 +50,7 @@
             </div>
             <div class="info-header__email">
               <a href="mailto:TarLux719@gmail.com">
-                <svg class="header-phone" width="15" heigth="15">
+                <svg class="header-phone">
                   <use href="./img/sprite.svg#mail"></use>
                 </svg>
                 TarLux719@gmail.com</a
@@ -96,29 +63,51 @@
         <!-- MOBILE MENU -->
 
         <div class="menu-container js-menu-container" id="mobile-menu">
-          <button class="menu-toggle js-close-menu">
-            <svg
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </button>
-
           <ul class="mobile-menu">
             <li><a href="./index.html" class="link">Головна</a></li>
             <li><a href="./about.html" class="link">Про компанію</a></li>
             <li><a href="./cases.html" class="link">Проєкти</a></li>
-            <li><a href="./сooperation.html" class="link">Співпраця</a></li>
           </ul>
-        </div>
+        
+          <div class="mobile__contacts contacts-mobile">
+            <address class="contacts-mobile__address">
+              <ul class="contacts-mobile__list">
+                <li class="contacts-mobile__item">
+                  <a href="" class="contacts-mobile__address">м.Київ, вул.Крайня 1Б</a>
+                </li>
+                <li class="contacts-mobile__item">
+                  <a href="mailto:TarLux719@gmail.com" class="contacts-mobile__contacts">TarLux719@gmail.com</a>
+                </li>
+                <li class="contacts-mobile__item">
+                  <a href="tel:+380680086499" class="contacts-mobile__contacts">+380 (68) 008 64 99</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+        
+          <div class="mobile-callback__container">
+            <div class="callback__sub-title">Напишіть нам:</div>
+            <div class="callback__messengers">
+              <div class="callback__items">
+                <div class="callback__item">
+                  <a href="https://wa.me/380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в WhatsApp" class="callback__link">
+                    <img src="./img/Socials/callbackSection/whatsapp.svg" alt="Whatsapp icon">
+                  </a>
+                </div>
+                <div class="callback__item">
+                  <a href="https://t.me/Jukovskii1" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Telegram" class="callback__link">
+                    <img src="./img/Socials/callbackSection/telegram.svg" alt="Telegram icon">
+                  </a>
+                </div>
+                <div class="callback__item">
+                  <a href="viber://chat?number=+380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Viber" class="callback__link">
+                    <img src="./img/Socials/callbackSection/viber.svg" alt="Viber icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
       </header>
       <main class="page">
 
@@ -126,13 +115,14 @@
           <div class="nav__container">
             <div class="nav__block">
               <span class="nav__breadcrumb">
-                <a class="nav__link" href="./index.html" title="«ТарЛюкс Інжиніринг» - Системи очищення води для дому і бізнесу">«ТарЛюкс Інжиніринг» - Системи очищення води для дому і бізнесу</a>
+                  <a class="nav__link" href="./index.html" title="«ТарЛюкс Інжиніринг» - Системи очищення води для дому і бізнесу">«ТарЛюкс Інжиніринг» - Системи очищення води для дому і бізнесу</a>
               </span>
               <span class="aioseo-breadcrumb-separator">/</span>
               <span class="aioseo-breadcrumb">Про компанію</span>
             </div>
           </div>
         </section>
+
         <section class="page__featured featured">
           <div class="featured__container">
              
@@ -193,6 +183,35 @@
           </div>
       </section>
 
+      <section class="page__callback callback">
+        <div class="callback__container">
+          <div class="callback__header">
+            <h2 class="callback__title">Консультація спеціаліста</h2>
+            <div class="callback__sub-title">Напишіть нам:</div>
+          </div>
+          <div class="callback__messengers">
+            <div class="callback__items">
+              <div class="callback__item">
+                <a href="https://wa.me/380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в WhatsApp"  class="callback__link">
+                  <img src="./img/Socials/callbackSection/whatsapp.svg" alt="Whatsapp icon">
+                </a>
+              </div>
+              <div class="callback__item">
+                <a href="https://t.me/Jukovskii1" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Telegram" class="callback__link">
+                  <img src="./img/Socials/callbackSection/telegram.svg"  alt="Telegram icon">
+                </a>
+              </div>
+              <div class="callback__item">
+                <a href="viber://chat?number=+380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Viber" class="callback__link">
+                <img src="./img/Socials/callbackSection/viber.svg" alt="Viber icon">
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      
         <!-- Clients -->
 
         <section class="page__clients clients">
@@ -207,52 +226,52 @@
               <div class="clients__items swiper-wrapper">
                 <!-- Slides -->
                 <div class="clients__item swiper-slide">
-                  <img src="./img/clients/Burisma_grup.png" alt="Burisma" />
+                  <img src="./img/clients/Burisma_grup.png" alt="Burisma" >
                 </div>
                 <div class="clients__item swiper-slide">
                   <img
                     src="./img/clients/cheese_club_logo.png"
                     alt="cheese_club_logo"
-                  />
+                  >
                 </div>
                 <div class="clients__item swiper-slide">
                   <img
                     src="./img/clients/esco_pivnich.png"
                     alt="esco_pivnich"
-                  />
+                  >
                 </div>
                 <div class="clients__item swiper-slide">
-                  <img src="./img/clients/Lilik.png" alt="Linik" />
+                  <img src="./img/clients/Lilik.png" alt="Linik" >
                 </div>
                 <div class="clients__item swiper-slide">
-                  <img src="./img/clients/MD.png" alt="MD" />
+                  <img src="./img/clients/MD.png" alt="MD" >
                 </div>
                 <div class="clients__item swiper-slide">
                   <img
                     src="./img/clients/mjasna_gildia.png"
                     alt="mjasna gildia"
-                  />
+                  >
                 </div>
                 <div class="clients__item swiper-slide">
                   <img
                     src="./img/clients/ODESKA_YuRIDIChNA_AKADEMIYa.png"
                     alt="ODESKA YuRIDIChNA AKADEMIYa"
-                  />
+                  >
                 </div>
                 <div class="clients__item swiper-slide">
                   <img
                     src="./img/clients/s_engeenering.png"
                     alt="s engeenering"
-                  />
+                  >
                 </div>
                 <div class="clients__item swiper-slide">
-                  <img src="./img/clients/sisu.png" alt="s sisu" />
+                  <img src="./img/clients/sisu.png" alt="s sisu" >
                 </div>
                 <div class="clients__item swiper-slide">
-                  <img src="./img/clients/tmetiz_logo.png" alt="tmetiz" />
+                  <img src="./img/clients/tmetiz_logo.png" alt="tmetiz" >
                 </div>
                 <div class="clients__item swiper-slide">
-                  <img src="./img/clients/trattoria.png" alt="trattoria" />
+                  <img src="./img/clients/trattoria.png" alt="trattoria" >
                 </div>
               </div>
               <!-- If we need navigation buttons -->
@@ -315,45 +334,11 @@
                           <div class="item-how__title">Поставка/ монтаж</div>
                           <div class="item-how__text">Доставка обладнання на об'єкт та його встановлення.</div>
                       </div>
-                  
-                 
               </div>
           </div>
       </section>
         <!-- Callback -->
 
-        <section class="page__callback callback">
-          <div class="callback__container">
-            <div class="callback__header">
-              <h2 class="callback__title">Консультація спеціаліста</h2>
-              <div class="callback__sub-title">Напишіть нам:</div>
-            </div>
-            <div class="callback__messengers">
-              <div class="callback__items">
-                <div class="callback__item">
-                  <a href="https://wa.me/380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в WhatsApp"  class="callback__link">
-                    <img src="./img/Socials/callbackSection/whatsapp.svg" alt="Whatsapp icon">
-                  </a>
-                </div>
-                <div class="callback__item">
-                  <a href="https://t.me/Jukovskii1" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Telegram" class="callback__link">
-                    <img src="./img/Socials/callbackSection/telegram.svg"  alt="Telegram icon">
-                  </a>
-                </div>
-                <div class="callback__item">
-                  <a href="viber://chat?number=+380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Viber" class="callback__link">
-                  <img src="./img/Socials/callbackSection/viber.svg" alt="Viber icon">
-                  </a>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!--test --------  -->
-      
-       
         
       </main>
       <footer class="footer">
@@ -362,9 +347,9 @@
             <a href="./index.html" class="logo">
               <img
                 class="footer__logo"
-                src="./img/LogoTLE/SVG/Logo- TLC_Logo-4.svg"
+                src="./img/LogoTLE/SVG/TLC_Logo-4.svg"
                 alt=""
-              />
+              >
             </a>
 
             <address class="footer-address">
