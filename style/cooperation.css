@@ -39,7 +39,6 @@ body {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1;
-  /* background-color: #fafafa; */
   background-color: #ffffff;
   color: #000;
   font-weight: 500;
@@ -354,9 +353,7 @@ body {
     color: #fff;
     text-decoration: none;
   }
-
-
-
+  
 /* PAGE__HOW SECTION */
 
 .how {
