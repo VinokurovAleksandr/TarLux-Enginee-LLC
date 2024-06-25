@@ -196,10 +196,12 @@ body {
   background-color: var(--secondary-color-1);
 }
 
-.menu__link:hover:after {
+.menu__link:hover:after,
+.menu__link:focus:after{
   width: 100%;
 }
-.menu__link:hover {
+.menu__link:hover,
+.menu__link:focus {
   color: var(--secondary-color-1);
 }
 .header__info {
@@ -243,7 +245,8 @@ body {
   font-size: 15px;
   transition: transform 0.3s ease 0s;
 }
-.header__button:hover {
+.header__button:hover,
+.header__button:focus {
   transform: scale(1.04);
   background-color: #0c95c7;
   transition-duration: all ;
@@ -446,7 +449,8 @@ body {
 .nav__breadcrumb a{
   color: var(--text-color);
 }
-.nav__link:hover {
+.nav__link:hover,
+.nav__link:focus {
   text-decoration: underline;
 }
 
@@ -661,13 +665,11 @@ body {
   padding-right: 30px;
 }
 
-.callback__item img{
-
-}
-
 .callback__item:hover img {
   transform: scale(1.5);
 }
+
+
 
 .callback__item img {
   transition: transform 0.3s ease 0s;
@@ -810,7 +812,8 @@ body {
     transition: all 0.5s ease 0s;
 }
 
-.content-featured__link:hover {
+.content-featured__link:hover,
+.content-featured__link:focus {
     background-color: #cc1602;
 }
 
@@ -1079,7 +1082,8 @@ body {
   margin-right: 20px;
 }
 
-.footer-social-item:hover svg {
+.footer-social-item:hover svg,
+.footer-social-item:focus svg {
   transform: scale(1.5);
 }
 

@@ -207,10 +207,12 @@ body {
   background-color: var(--secondary-color-1);
 }
 
-.menu__link:hover:after {
+.menu__link:hover:after,
+.menu__link:focus:after {
   width: 100%;
 }
-.menu__link:hover {
+.menu__link:hover,
+.menu__link:focus{
   color: var(--secondary-color-1);
 }
 .header__info {
@@ -254,7 +256,8 @@ body {
   font-size: 15px;
   transition: transform 0.3s ease 0s;
 }
-.header__button:hover {
+.header__button:hover,
+.header__button:focus {
   transform: scale(1.04);
   background-color: #0c95c7;
   transition-duration: all ;
@@ -521,7 +524,8 @@ body {
   font-size: 15px;
   transition: transform 0.3s ease 0s;
 }
-.main-block_button-border:hover {
+.main-block_button-border:hover,
+.main-block_button-border:focus {
   transform: scale(1.04);
   
   transition-duration: all;
@@ -1035,7 +1039,8 @@ body {
   margin-right: 20px;
 }
 
-.footer-social-item:hover svg {
+.footer-social-item:hover svg,
+.footer-social-item:focus svg {
   transform: scale(1.5);
 }
 
