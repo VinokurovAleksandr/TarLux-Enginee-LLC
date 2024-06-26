@@ -171,13 +171,13 @@ body {
   position: relative;
 }
 .menu__link {
-  color: #000;
+  /* color: #000; */
   cursor: pointer;
   letter-spacing: 0.17px;
   font-size: 14px;
   font-weight: 600;
   line-height: 171%;
-  color: var(--second-text-color);
+  color: var(--text-color);
 }
 
 .menu__link.current {
@@ -215,13 +215,17 @@ body {
 .menu__link:focus{
   color: var(--secondary-color-1);
 }
+.header__socials{
+  margin-top: 0 !important;
+}
+
 .header__info {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
 }
 .header__info a {
-  color: var(--second-text-color);
+  color: var(--text-color);
   font-size: 14px;
   font-weight: 600;
 }
@@ -556,9 +560,11 @@ body {
   background: #fafafa;
 }
 .services__container {
+
 }
 
 .services__body {
+  transform: translate(0, -16.765027%);
 }
 
 @media (min-width: 670px) {

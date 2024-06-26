@@ -242,6 +242,9 @@ body.modal-open {
   background-color: #0c95c7;
   transition-duration: all 400ms ;
 }
+.header__socials{
+  margin-top: 0 !important;
+}
   /* MAIN-BLOCK */
       /* MOBILE MENU */
 @media (max-width: 979px) {
