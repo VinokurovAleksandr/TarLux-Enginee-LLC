@@ -151,6 +151,9 @@ body.modal-open {
   .info-header__phone {
     font-size: 12px;
   }
+  .header__social-container{
+    display: none !important;
+   }
 }
 .menu__item {
   position: relative;
