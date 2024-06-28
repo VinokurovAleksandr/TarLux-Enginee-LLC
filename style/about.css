@@ -128,6 +128,9 @@ body {
   .header__container {
     min-height: 85px;
   }
+  .header__social-container{
+    display: none !important;
+   }
 }
 .header__logo {
   overflow: hidden;
@@ -258,8 +261,7 @@ body {
 
 
 /* MOBILE MENU */
-
-@media (max-width: 979px) {
+@media (max-width: 768px) {
   .menu {
     display: none;
   }
@@ -297,7 +299,7 @@ body {
   outline: none;
 }
 
-@media (min-width: 979px) {
+@media (min-width: 768px) {
   .menu-toggle {
     display: none;
   }
@@ -314,12 +316,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 35px 31px;
+  padding: 65px 31px;
   background-color: var(--secondary-color-1);
   z-index: 999;
   overflow: scroll;
   transform: translateX(100%);
-  /* transition: top 0.3s; */
   transition: transform 250ms ease-in-out;
 }
 
@@ -333,7 +334,6 @@ body {
     top: -100%;
     left: 0;
     width: 100%;
-    /* background-color: var(--secondary-color-1); */
     background-color: var(--secondary-color-1);
     transition: top 0.3s;
     z-index: 1000;
@@ -373,12 +373,10 @@ body {
 }
 
 .mobile__contacts {
-  padding-top: 20px;
+  padding-top: 40px;
   display: flex;  
   justify-content: center;
   text-align: center;
-}
-.contacts-mobile {
 }
 .contacts-mobile__address {
   color: #fff;
@@ -387,12 +385,7 @@ body {
 .contacts-mobile__list .contacts-mobile__item {
   padding: 10px;
 }
-.contacts-mobile__item {
-  
 
-}
-.item {
-}
 .contacts-mobile__contacts {
   color: #fff;
   font-size: 16px;
@@ -404,9 +397,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 20px;
-  /* margin: 20px; */
- 
+  padding-top: 40px;
 }
 .callback__sub-title {
   color: #fff;
@@ -415,6 +406,10 @@ body {
   text-align: center;
   padding: 15px 0 15px 0;
 }
+.callback__messengers {
+  
+ 
+}
 .callback__items {
   display: flex;
   justify-content: center;
@@ -422,8 +417,11 @@ body {
 }
 .callback__item:not(:last-child) {
   padding-right: 15px;
-}
 
+}
+.callback__link {
+
+}
 /* PAGE_nav */
 
 .page__nav {
@@ -628,11 +626,10 @@ body {
   }
 }
 .callback__sub-title{
-
   font-size: 24px;
     line-height: 130%;
     font-weight: 500;
-    margin-bottom: 26px;
+    /* margin-bottom: 26px; */
     text-align: center;
     color: var(--light-text-color);
 }
