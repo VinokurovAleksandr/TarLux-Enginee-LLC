@@ -1,0 +1,1 @@
+window.addEventListener("scroll",function(){0<scrollY?document.querySelector(".header").classList.add("scroll"):document.querySelector("header").classList.remove("scroll")});

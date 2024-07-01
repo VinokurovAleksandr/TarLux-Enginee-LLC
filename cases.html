@@ -13,7 +13,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900&display=swap&subset=cyrillic-ext" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" >
-    <link rel="stylesheet" href="./style/cases.css" >
+    <link rel="stylesheet" href="./css/cases.css" >
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" >
     <title>TarLux Engineering LLC</title>
   </head>
@@ -233,6 +233,36 @@
     </div>
   </section>
 
+   <!-- CALLBACK SECTION -->
+   <section class="page__callback callback">
+    <div class="callback__container">
+      <div class="callback__header">
+        <h2 class="callback__title">Консультація спеціаліста</h2>
+        <div class="callback__sub-title">Напишіть нам:</div>
+      </div>
+      <div class="callback__messengers">
+        <div class="callback__items">
+          <div class="callback__item">
+            <a href="https://wa.me/380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в WhatsApp"  class="callback__link">
+              <img src="./img/Socials/callbackSection/whatsapp.svg" alt="Whatsapp icon">
+            </a>
+          </div>
+          <div class="callback__item">
+            <a href="https://t.me/Jukovskii1" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Telegram" class="callback__link">
+              <img src="./img/Socials/callbackSection/telegram.svg"  alt="Telegram icon">
+            </a>
+          </div>
+          <div class="callback__item">
+            <a href="viber://add?number=%2B380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Viber" class="callback__link">
+            <img src="./img/Socials/callbackSection/viber.svg" alt="Viber icon">
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- PAGE PROJECTS -->
   <section class="page__projects projects section-wrapper">
     <div class="projects-section__background"></div>
@@ -251,8 +281,10 @@
             <div class="swiper-container gallery-container">
                 <div class="swiper-wrapper gallery">
                     <div class="swiper-slide">
-                        <img class="gallery-item" src="./img/gallery/1.JPG" alt="Description 1">
-                        
+                        <img class="gallery-item" src="./img/gallery/65.jpg" alt="Description 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="gallery-item" src="./img/gallery/66.jpg" alt="Description 1">
                     </div>
                     <div class="swiper-slide">
                         <img class="gallery-item" src="./img/gallery/11.jpg" alt="Description 2">
@@ -263,7 +295,15 @@
                         
                     </div>
                     <div class="swiper-slide">
+                        <img class="gallery-item" src="./img//gallery/68.jpg" alt="Description 3">
+                        
+                    </div>
+                    <div class="swiper-slide">
                         <img class="gallery-item" src="./img/gallery/13.jpg" alt="Description 4">
+                        
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="gallery-item" src="./img/gallery/67.jpg" alt="Description 4">
                         
                     </div>
                     <div class="swiper-slide">
@@ -331,41 +371,18 @@
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
             </div>
-            
+
         </div>
-        <!-- <div class="swiper-pagination"></div -->
+        <div id="modal" class="modal">
+          <span class="close">&times</span>
+          <button id="modal-prev" class="modal-nav">&#10094</button>
+          <img class="modal-content" id="modal-image">
+          <button id="modal-next" class="modal-nav">&#10095</button>
+      </div>
     </div>
   </section>
 
-  <!-- CALLBACK SECTION -->
-  <section class="page__callback callback">
-    <div class="callback__container">
-      <div class="callback__header">
-        <h2 class="callback__title">Консультація спеціаліста</h2>
-        <div class="callback__sub-title">Напишіть нам:</div>
-      </div>
-      <div class="callback__messengers">
-        <div class="callback__items">
-          <div class="callback__item">
-            <a href="https://wa.me/380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в WhatsApp"  class="callback__link">
-              <img src="./img/Socials/callbackSection/whatsapp.svg" alt="Whatsapp icon">
-            </a>
-          </div>
-          <div class="callback__item">
-            <a href="https://t.me/Jukovskii1" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Telegram" class="callback__link">
-              <img src="./img/Socials/callbackSection/telegram.svg"  alt="Telegram icon">
-            </a>
-          </div>
-          <div class="callback__item">
-            <a href="viber://add?number=%2B380680086499" target="_blank" rel="noopener noreferrer" title="Напишіть нам в Viber" class="callback__link">
-            <img src="./img/Socials/callbackSection/viber.svg" alt="Viber icon">
-            </a>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   </main>
 
   <footer class="footer">
@@ -375,7 +392,7 @@
         <img
           class="footer__logo"
           src="./img/LogoTLE/SVG/TLC_Logo-4.svg"
-          alt=""
+          alt="footer logo"
         />
       </a>
 
@@ -427,10 +444,10 @@
   </footer>
   </div>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="./js/cases/casesGallery.js"></script>
-  <script src="./js/cases/casesHeader.js"></script>
-  <script src="./js/cases/casesMobileMenu.js"></script>
-  <script src="./js/cases/casesModal.js"></script>
+  <script src="./js/casesGallery.js"></script>
+  <script src="./js/casesHeader.js"></script>
+  <script src="./js/casesMobileMenu.js"></script>
+  <script src="./js/casesModal.js"></script>
   </body>
 </html>
 
