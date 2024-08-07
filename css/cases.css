@@ -370,8 +370,7 @@ body.modal-open {
 .contacts-mobile__list .contacts-mobile__item {
   padding: 10px;
 }
-.item {
-}
+
 .contacts-mobile__contacts {
   color: #fff;
   font-size: 16px;
@@ -397,13 +396,10 @@ body.modal-open {
 }
 .callback__item:not(:last-child) {
   padding-right: 15px;
-
 }
           /* section-background */
 /* PAGE_nav */
 
-.page__nav {
-}
 .nav {
   padding-top: 130px;
   padding-bottom: 0px;
@@ -474,9 +470,6 @@ body.modal-open {
 }
 /*  PROJECTS TYPE */
 
-.page__progectType {
- 
-}
 .progectType {
   background: #F1FFFF;
 }
@@ -560,7 +553,7 @@ body.modal-open {
   height: 13px;
 }
     /* PROJECTS */
-  .page__projects {
+.page__projects {
     padding-bottom: 50px;
 }
 .projects {
@@ -568,10 +561,6 @@ body.modal-open {
 }
 .section-wrapper {
     padding-top: 50px;
-}
-.projects-section__background {
-}
-.projects_container {
 }
 .projects_body {
     display: flex;
@@ -609,9 +598,6 @@ body.modal-open {
 
 /* CALLBACK SECTION */
 
-.page__callback{
-
-}
 .callback{
   padding-top: 115px;
   padding-bottom: 90px;
@@ -628,10 +614,6 @@ body.modal-open {
   background-color: #C4C4C4;
 }
 
-.callback-block_image{
-
-}
-
 .callback__container{
   top: 0;
   left: 0;
@@ -641,7 +623,7 @@ body.modal-open {
   height: 100%;
   overflow: hidden;
 }
-.callback__header{}
+
 .callback__title{
   color: var(--light-text-color);
     font-size: 48px;
@@ -672,11 +654,8 @@ body.modal-open {
 @media (max-width: 479.98px) {
   .callback__sub-title {
     font-size: 20px;
-  }
-}
-.callback__messengers{
- 
-}
+  }}
+
 .callback__items{
   display: flex;
   justify-content: center;
